@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout       xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PrimaryColor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SAMPLE"
+            android:id="@+id/empty_view"
+            android:gravity="center"
+            android:padding="16dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:visibility="gone"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="true"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:id="@+id/guidesList" />
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
