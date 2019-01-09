@@ -1,4 +1,5 @@
-# NavigationView
-A sample app to use & understand the fragments transactions with Navigation Drawer. It also contains few different basic programs to understand android.
+# Navigation Drawer
+Simple Navigation Drawer modefied from a online source code
 
-<img src="Screenshot_20161230-115147.png" width="350"/> &nbsp; &nbsp; <img src="Screenshot_20161230-115153.png" width="350"/> &nbsp; &nbsp; &nbsp; &nbsp; 
+<img src="Screenshot_1.png" width="350"/> &nbsp; &nbsp;
+
